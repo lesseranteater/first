@@ -39,12 +39,31 @@ a {
 nav a{
      font-size: 25px;
      box-shadow: 0px 0px 0px;
-
-
-     ul{
-list-style-image:url (blet.jfif) ;}
-
-ul li{
-     text-align: left;
-margin-left: 45%;
 }
+
+ul {
+ list-style-image: url("bullet.png");
+}
+
+ul li {
+     text-align: left;
+     margin-left: 45%;
+}
+form{
+     color: #fff;
+     font-size:16px;
+     padding: 10px;
+     background-image: url("ew.jpg");
+}
+#footer p{
+     font-size: 25px;
+}
+form input,
+form textarea{
+     margin-top: 6p;
+     padding: 10px;
+     border-radius: 6px;
+     box-shadow: 0 10px 20px #9999;
+     width: 60%;
+     color: #ff757e;
+     font-family: "Comfortaa", cursive;}
