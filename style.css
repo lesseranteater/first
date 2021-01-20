@@ -1,69 +1,69 @@
-h1   {
-     color:   #2cc9c2;
-font-family: "Poiret One"  cursive;
-font-size: 48px; 
-letter-spacing: 6px;
-text-shadow: 6px 6px 5px black;
-padding: 15% 10%;
+h1 {
+  color: #2cc9c2;
+  font-family: "Poiret One" cursive;
+  font-size: 48px;
+  letter-spacing: 6px;
+  text-shadow: 6px 6px 5px black;
+  padding: 15% 10%;
 }
 
 h2 {
-     color:cyan;
-     font-size: 20px;
-     text-shadow: 6px 6px 5px black;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-shadow: 6px 6px 5px black;
+}
+ body {
+  background-attachment: rgb(240, 253, 253);
+  color: #81a7b1;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  margin: 0px;
 }
 
-body{
-background-attachment: rgb(240,253,253);
-color: #81A7B1;
-font-family: "Poiret One", cursive;
-font-weight: bold;
-margin: 0px;
-}
-
-*  {
-text-align: center;
+* {
+  text-align: center;
 }
 
 a {
-     color: #81A7B1;
-     text-shadow: 2px 2px 5px #81A7B1;
-     padding: 10px 30px;
-     text-decoration:none;
-     text-transform: uppercase;
-     border-radius: 2px;
-     box-shadow: 5px 5px 8px #a09797;
-     background: linear-gradient(darkgreen, green);
+  color: #81a7b1;
+  text-shadow: 2px 2px 5px #81a7b1;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 2px;
+  box-shadow: 5px 5px 8px #a09797;
+  background: linear-gradient(darkgreen, green);
 }
 
-nav a{
-     font-size: 25px;
-     box-shadow: 0px 0px 0px;
+nav a {
+  font-size: 25px;
+  box-shadow: 0px 0px 0px;
 }
 
 ul {
- list-style-image: url("bullet.png");
+  list-style-image: url("bullet.png");
 }
 
 ul li {
-     text-align: left;
-     margin-left: 45%;
+  text-align: left;
+  margin-left: 45%;
 }
-form{
-     color: #fff;
-     font-size:16px;
-     padding: 10px;
-     background-image: url("ew.jpg");
+form {
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  background-image: url("ew.jpg");
 }
-#footer p{
-     font-size: 25px;
+#footer p {
+  font-size: 25px;
 }
 form input,
-form textarea{
-     margin-top: 6p;
-     padding: 10px;
-     border-radius: 6px;
-     box-shadow: 0 10px 20px #9999;
-     width: 60%;
-     color: #ff757e;
-     font-family: "Comfortaa", cursive;}
+form textarea {
+  margin-top: 6p;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px #9999;
+  width: 60%;
+  color: #ff757e;
+  font-family: "Comfortaa", cursive;
+}
