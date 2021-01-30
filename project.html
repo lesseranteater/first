@@ -4,16 +4,32 @@
     <meta charset="UTF-8" />
     <link href="style.css" rel="stylesheet" />
     <title>Project</title>
+    <link rel="shortcut icon" href="ico.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Comfortaa:400,600,700|Poiret+One&display=swap
+    "
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    />
   </head>
 
   <br />
   <body>
     <nav>
-      <a href="Project.html">Home</a>
-      <a href="Video.html">Video</a>
-      <a href="">Contact Us</a>
+      <a class="button" href="Project.html">Home</a>
+      <a class="button" href="Video.html">Video</a>
+      <a class="button" href="#footer">Contact Us</a>
     </nav>
-    <h1>Любимата ми игра:Among us</h1>
+
+    <div id="banner">
+      <h1>
+        Любимата ми игра:
+        <span style="text-transform: uppercase">among us</span>
+      </h1>
+     
     <p>
       Among us е една от най-известните игри на света.Около 217000000 хора са си
       я инсталирали (на телефон) или купили (на лаптоп или компютър).Плюсовете
@@ -22,10 +38,20 @@
       6,7 или 8 добри имаш определен брой задачи. Ако всички добри си свършат
       задачите, добрите печелят.
     </p>
-    <p>
-      За още информация, натисни
-      <a href="https://en.wikipedia.org/wiki/Among_Us" target="_blank">тук.</a>
-    </p>
+      <a
+        class="button"
+        id="special-button-1"
+        href="https://bg.wikipedia.org/wiki/Among_Us"
+        target="_blank"
+        >Прочети повече</a
+      >
+      <br />
+    </div>
+
+    <div class="cards-container">
+      <div class="card">
+        <img src="37824.png" height="200" alt="oops">
+
     <br />
     <img
       src="AMong us.jpg"
@@ -33,24 +59,32 @@
       height="200"
       title="Among us imggggg"
     />
-    <h1>Картите в Among us</h1>
+    </div>
+    <div class="card">
+          <h1>Картите в Among us</h1>
     <h2>THE SKELD</h2>
     <p>
       Първата карта се казва THE SKELD.Тя е най-играната карта.Ето как изглежда:
     </p>
     <img src="SKeLD_MAP.jpg" alt="oops" height="400" title="THE SKELD" />
+    </div>
+    <div class="card">
     <h2>MIRA HQ</h2>
     <p>
       MIRA HQ е интересна карта,много по-интересна от THE SKELD.Ето как
       изглежда:
     </p>
     <img src="MIRA HQ.png" alt="oops" height="400" title="MIRA HQ" />
+    </div>
+    <div class="card">
     <h2>POLUS</h2>
     <p>
       POLUS е единствената карта,в която вали сняг и има една тайна,която вие
       трябва да узнаете.Питате как изглежда картата?Ето,вижте:
     </p>
     <img src="POLUS.jpg" alt="oops" height="400" title="POLUS" />
+    </div>
+    </div>
     <form method="POST" action="project.html">
       <p>HTML & CSS My FIRST Project</p>
 
