@@ -10,10 +10,9 @@ h1 {
 h2 {
   color: rgb(0, 0, 0);
   font-size: 20px;
-  text-shadow: 6px 6px 5px black;
 }
  body {
-  background-attachment: rgb(240, 253, 253);
+  background-color: rgb(240, 253, 253);
   color: #81a7b1;
   font-family: "Poiret One", cursive;
   font-weight: bold;
@@ -41,7 +40,7 @@ nav a {
 }
 
 ul {
-  list-style-image: url("bullet.png");
+  list-style-image: url("blet.png");
 }
 
 ul li {
@@ -50,7 +49,7 @@ ul li {
 }
 form {
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px;
   background-image: url("ew.jpg");
 }
@@ -65,5 +64,50 @@ form textarea {
   box-shadow: 0 10px 20px #9999;
   width: 60%;
   color: #ff757e;
+  font-family: "Comfortaa", cursive;
+}
+#banner h1 {
+  color: #FFFAE5;
+  font-family: "Comfortaa", cursive;
+  font-size: 48px;
+  letter-spacing: 6px;
+  text-shadow: 6px 6px 5px black;
+}
+
+.button {
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #ffffff;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 2px;
+  box-shadow: 5px 5px 8px #a09797;
+  background: linear-gradient(#fc8c82, #f33123);
+}
+
+#special-button-1, #special-button-2 {
+  background: linear-gradient(#7999FC, #7999FC); 
+}
+
+#banner {
+  background-image: url("among-us-banner.jpg");
+  background-attachment: fixed;
+  padding: 100px 50px; 
+  min-height: 600px; 
+}
+
+#banner p {
+  font-size: 24px;
+  color: #fffae5;
+  text-shadow: 6px 6px 5px black;
+  padding-bottom: 50px;
+}
+
+nav {
+  position: fixed;
+}
+
+form input::placeholder, form textarea::placeholder {
+  color: #FF757E;
   font-family: "Comfortaa", cursive;
 }
